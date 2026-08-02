@@ -39,7 +39,11 @@ source ~/.bashrc
    ---
    test case 2 input here
 Run a Specific Test Case:
-Open your terminal in that directory and use the shortcut corresponding to the test case number (in1 for the first test case, in2 for the second, etc.):
+Open your terminal in that directory, write this command
+```
+g++ (filename).cpp -o a
+```
+press enter and use the shortcut corresponding to the test case number (in1 for the first test case, in2 for the second, etc.):
 
 Bash
 in1
