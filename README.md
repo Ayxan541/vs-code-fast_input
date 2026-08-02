@@ -29,3 +29,18 @@ Reload your terminal to apply the changes:
 ```
 source ~/.bashrc
 ```
+
+## How to Use
+
+1. **Create an Input File:** 
+   In your project directory, create a file named `input.txt` and put your test cases there, separated by `---`:
+   ```text
+   test case 1 input here
+   ---
+   test case 2 input here
+Run a Specific Test Case:
+Open your terminal in that directory and use the shortcut corresponding to the test case number (in1 for the first test case, in2 for the second, etc.):
+
+Bash
+in1
+This will automatically compile your latest .cpp file, feed the specified test case, and show you the clean output!
